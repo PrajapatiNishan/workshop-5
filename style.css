@@ -32,7 +32,7 @@ body{
 }
 
 .first-section .left-section .content-wrapper {
-    padding: 60px;
+    padding: 160px 60px;
 }
 
 .first-section .left-section .content-wrapper h1 {
@@ -40,6 +40,7 @@ body{
     color: #FFFFFF;
     max-width: 513px;
     margin-bottom: 25px;
+    margin-top: 0;
 }
 
 .cover-holder {
@@ -50,7 +51,7 @@ body{
 .first-section .left-section .content-wrapper span {
     color: #FFFFFF;
     font-size: 24px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
     display: block;
 }
 
@@ -59,8 +60,9 @@ body{
 }
 
 .first-section .left-section .content-wrapper p {
-    margin: 5px;
+    margin-bottom: 5px;
     color: #FFFFFF;
+    margin-top: 0;
 }
 
 .btn-section a {
