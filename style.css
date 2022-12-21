@@ -2,3 +2,23 @@
 	max-width: 1240px;
 	margin: 0 auto;
 }
+
+img{
+    max-width: 100%;
+}
+
+.divider{
+	display: flex;
+}
+
+/* start of first section css */
+.first-section .left-section {
+    flex: 0 0 40%;
+    width: 40%;
+}
+
+.first-section .right-section {
+    flex: 0 0 60%;
+    width: 60%;
+}
+/* end of first section css */
