@@ -11,6 +11,10 @@ img{
 	display: flex;
 }
 
+body{
+	margin: 0;
+}
+
 /* start of first section css */
 .first-section .left-section {
     flex: 0 0 40%;
