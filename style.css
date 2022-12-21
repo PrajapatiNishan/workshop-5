@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-container{
+.container{
 	max-width: 1240px;
 	margin: 0 auto;
 }
@@ -82,3 +82,39 @@ body{
 }
 
 /* end of first section css */
+
+.second-section .top-section .left-section {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.second-section .top-section .right-section {
+    flex: 0 0 50%;
+    width: 50%;
+    /* align-items: center; */
+    /* display: inherit; */
+}
+
+
+.second-section .top-section .left-section h2 {
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.second-section .top-section .right-section p {
+    font-size: 18px;
+    color: #FFFFFF;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.second-section {
+    padding: 80px 0;
+}
+
+.second-section .bottom-section img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
