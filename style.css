@@ -36,9 +36,9 @@ body{
 }
 
 .first-section .left-section .content-wrapper h1 {
-    font-size: 60px;
+    font-size: 70px;
     color: #FFFFFF;
-    max-width: 513px;
+    max-width: 601px;
     margin-bottom: 25px;
     margin-top: 0;
 }
@@ -50,7 +50,7 @@ body{
 
 .first-section .left-section .content-wrapper span {
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 27px;
     margin-bottom: 130px;
     display: block;
 }
@@ -63,6 +63,7 @@ body{
     margin-bottom: 5px;
     color: #FFFFFF;
     margin-top: 0;
+    font-size: 20px;
 }
 
 .btn-section a {
@@ -74,7 +75,7 @@ body{
     border-radius: 20px;
     margin-top: 30px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .btn-section {
@@ -99,16 +100,17 @@ body{
 
 
 .second-section .top-section .left-section h2 {
-    font-size: 60px;
+    font-size: 66px;
     color: #FFFFFF;
     margin-top: 0;
 }
 
 .second-section .top-section .right-section p {
-    font-size: 18px;
+    font-size: 22px;
     color: #FFFFFF;
-    max-width: 400px;
+    max-width: 463px;
     margin: 0 auto;
+    font-weight: 300;
 }
 
 .second-section {
@@ -140,10 +142,10 @@ body{
 }
 
 .third-section h2 {
-    font-size: 44px;
+    font-size: 53px;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 .third-section {
@@ -155,14 +157,15 @@ body{
 }
 
 .speaker-list h3 {
-    font-size: 24px;
+    font-size: 29px;
     margin-bottom: 5px;
 }
 
 .speaker-list span {
     display: block;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 2px;
+    text-transform: capitalize;
 }
 
 .speaker-list span.date {
@@ -181,7 +184,7 @@ body{
 }
 
 .speaker-list .img-holder {
-    height: 300px;
+    height: 350px;
 }
 
 .speaker-list:nth-child(3) .img-holder {
