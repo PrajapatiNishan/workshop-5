@@ -8,6 +8,7 @@
 img{
     max-width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .divider{
@@ -202,10 +203,26 @@ body{
 .fourth-section .right-section {
     flex: 0 0 50%;
     width: 50%;
-    text-align: center;
+    /* text-align: center; */
+    padding: 100px 0;
 }
 
 .fourth-section .right-section h2 {
     font-size: 66px;
     color: #FFFFFF;
+    margin-top: 0;
+    padding-left: 80px;
+    margin-bottom: 200px;
+}
+
+.fourth-section .right-section ul {
+    padding-left: 80px;
+    list-style: none;
+    margin: 0;
+}
+
+.fourth-section .right-section ul li {
+    font-size: 29px;
+    color: #FFFFFF;
+    line-height: 1.5;
 }
