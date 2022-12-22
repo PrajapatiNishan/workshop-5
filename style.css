@@ -204,7 +204,7 @@ body{
     flex: 0 0 50%;
     width: 50%;
     /* text-align: center; */
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
 .fourth-section .right-section h2 {
@@ -212,7 +212,7 @@ body{
     color: #FFFFFF;
     margin-top: 0;
     padding-left: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
 
 .fourth-section .right-section ul {
