@@ -83,6 +83,8 @@ body{
 
 /* end of first section css */
 
+/* start of second section */
+
 .second-section .top-section .left-section {
     flex: 0 0 50%;
     width: 50%;
@@ -117,4 +119,71 @@ body{
     height: 400px;
     width: 100%;
     object-fit: cover;
+}
+
+/* end of second section */
+
+.speaker-lists {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.speaker-list img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.speaker-list {
+    flex: 0 0 33.333%;
+    width: 33.333%;
+}
+
+.third-section h2 {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.third-section {
+    padding: 80px 0;
+}
+
+.speaker-list {
+    text-align: center;
+}
+
+.speaker-list h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.speaker-list span {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.speaker-list span.date {
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+
+
+.speaker-list:nth-child(2) .img-holder {
+    padding: 0 50px;
+}
+
+.speaker-list:nth-child(1) .img-holder {
+    padding-right: 40px;
+}
+
+.speaker-list .img-holder {
+    height: 300px;
+}
+
+.speaker-list:nth-child(3) .img-holder {
+    padding-left: 40px;
 }
