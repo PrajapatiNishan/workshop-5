@@ -125,6 +125,7 @@ body{
 
 /* end of second section */
 
+/* start of third section */
 .speaker-lists {
     display: flex;
     flex-wrap: nowrap;
@@ -189,4 +190,22 @@ body{
 
 .speaker-list:nth-child(3) .img-holder {
     padding-left: 40px;
+}
+
+/* end of third section */
+
+.fourth-section .left-section {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.fourth-section .right-section {
+    flex: 0 0 50%;
+    width: 50%;
+    text-align: center;
+}
+
+.fourth-section .right-section h2 {
+    font-size: 66px;
+    color: #FFFFFF;
 }
