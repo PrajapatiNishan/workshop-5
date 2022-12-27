@@ -181,19 +181,19 @@ body{
 
 
 .speaker-list:nth-child(2) .img-holder {
-    padding: 0 50px;
+    padding: 0 30px;
 }
 
 .speaker-list:nth-child(1) .img-holder {
-    padding-right: 40px;
+    padding-right: 60px;
 }
 
 .speaker-list .img-holder {
-    height: 350px;
+    height: 375px;
 }
 
 .speaker-list:nth-child(3) .img-holder {
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 /* end of third section */
