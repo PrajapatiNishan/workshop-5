@@ -211,7 +211,7 @@ body{
 .fourth-section .right-section h2 {
     font-size: 66px;
     color: #FFFFFF;
-    margin-top: 0;
+    margin-top: 10px;
     padding-left: 80px;
     margin-bottom: 250px;
 }
@@ -225,7 +225,8 @@ body{
 .fourth-section .right-section ul li {
     font-size: 29px;
     color: #FFFFFF;
-    line-height: 1.7;
+    line-height: 1.75;
+    font-weight: 300;
 }
 
 /* end of fourth section */
