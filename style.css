@@ -79,9 +79,10 @@ body{
     text-transform: uppercase;
     color: #000;
     padding: 15px 40px;
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: 700;
     font-size: 18px;
+    letter-spacing: 0.5px;
 }
 
 .btn-section {
@@ -193,6 +194,8 @@ body{
 
 /* end of third section */
 
+/* start of fourth section */
+
 .fourth-section .left-section {
     flex: 0 0 50%;
     width: 50%;
@@ -224,3 +227,45 @@ body{
     color: #FFFFFF;
     line-height: 1.7;
 }
+
+/* end of fourth section */
+
+/* fifth section */
+
+.fifth-section .left-section {
+    flex: 0 0 60%;
+    width: 60%;
+}
+
+.fifth-section .right-section {
+    flex: 0 0 40%;
+    width: 40%;
+}
+
+.fifth-section .left-section .content-wrapper {
+    padding: 110px 90px;
+    /* padding: 80px 0; */
+}
+
+.fifth-section h2 {
+    font-size: 66px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.fifth-section ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.fifth-section ul li {
+    font-size: 29px;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+/* end of fifth section */
