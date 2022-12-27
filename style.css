@@ -34,6 +34,10 @@ body{
 .first-section .right-section {
     flex: 0 0 40%;
     width: 40%;
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 75%;
 }
 
 .first-section .left-section .content-wrapper {
