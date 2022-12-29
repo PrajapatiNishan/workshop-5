@@ -90,6 +90,21 @@
     .fourth-section .right-section h2 {
         margin-bottom: 150px;
     }
+    .speaker-list:nth-child(1) .img-holder {
+        padding-right: 30px;
+    }
+    
+    .speaker-list:nth-child(2) .img-holder {
+        padding: 0 20px;
+    }
+    
+    .speaker-list:nth-child(3) .img-holder {
+        padding-left: 40px;
+    }
+    
+    .fourth-section .left-section img {
+        display: block;
+    }
 }
 
 /* end of tablet responsive */
