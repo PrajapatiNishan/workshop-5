@@ -105,6 +105,31 @@
     .fourth-section .left-section img {
         display: block;
     }
+    .speaker-lists {
+        flex-direction: column;
+    }
+    
+    .speaker-list {
+        flex: 0 0 100%;
+        width: 100%;
+        /* padding: 16px; */
+    }
+    
+    .speaker-list:nth-child(1) .img-holder {
+        padding: 0;
+    }
+    
+    .speaker-list:nth-child(2) .img-holder {
+        padding: 0;
+    }
+    
+    .speaker-list:nth-child(3) .img-holder {
+        padding: 0;
+    }
+    
+    .speaker-list .img-holder {
+        padding: 25px !important;
+    }
 }
 
 /* end of tablet responsive */
